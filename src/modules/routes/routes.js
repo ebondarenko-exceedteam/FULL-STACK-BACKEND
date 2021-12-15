@@ -12,6 +12,6 @@ const {
 router.get('/getAllCharges', getAllCharges);
 router.post('/addedCharges', createdNewCharges);
 router.patch('/updateCharges', changeChargesInfo);
-router.get('/deleteCharges', deleteCharges);
+router.delete('/deleteCharges', deleteCharges);
 
 module.exports = router;
