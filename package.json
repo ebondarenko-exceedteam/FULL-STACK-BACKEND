@@ -1,0 +1,26 @@
+{
+  "name": "full-stack-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebondarenko-exceedteam/FULL-STACK-BACKEND.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebondarenko-exceedteam/FULL-STACK-BACKEND/issues"
+  },
+  "homepage": "https://github.com/ebondarenko-exceedteam/FULL-STACK-BACKEND#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15"
+  }
+}
